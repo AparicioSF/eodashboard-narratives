@@ -1,8 +1,8 @@
 ---
 cover-image: https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/10/earthcare_for_a_better_understanding_of_earth_s_radiation_balance/25154725-1-eng-GB/EarthCARE_for_a_better_understanding_of_Earth_s_radiation_balance_pillars.png
 date: 2025-01-01
-theme: theme_name
-tags: some,tags
+theme: atmosphere
+tags: EarthCare, clouds, aerosols
 
 ---
 
@@ -25,7 +25,7 @@ tags: some,tags
 
 ## Aerosols and clouds belong together
 
-Some clouds would not exist without aerosols, tiny particles that act as nuclei for cloud droplet formation. As air parcels rise through the troposphere, they cool, carrying water vapor that condenses around hygroscopic aerosol particles once temperatures drop enough. These particles, called Cloud Condensation Nuclei (CCN), enable liquid cloud droplets to form.
+Most clouds would not exist without aerosols, tiny particles that act as nuclei for cloud droplet formation. Moist air parcels cool as they rise through the troposphere. Eventually the temperature in the parcel reaches the dew point, the temperature at which air becomes fully saturated with water vapor, and water vapor starts to condense (change to liquid phase) on hygroscopic aerosol particles. These particles are called Cloud Condensation Nuclei (CCN), as they help to activate or form the liquid cloud droplets.
 
 <div style="text-align: center;">
     <img src="
@@ -33,26 +33,25 @@ https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Chall
     <p><b>Figure 1: CCNs </b> Schematic representation of how liquid cloud droplets form with the help of aerosol particles.</p>
 </div>
 
-Some aerosols help form ice crystals instead, acting as Ice **Nucleating Particles (INPs)**, common at higher, colder altitudes. Depending on whether droplets are liquid, ice, or both, clouds are classified as liquid, ice, or mixed-phase. Natural aerosols include sea salt, volcanic sulfates, and desert dust, while anthropogenic aerosols arise from pollution and biomass burning. 
+Some aerosols may also act as **Ice Nucleating Particles (INP)** to produce ice crystals and some may only act as INP. The number of ice crystals produced increases with lower temperatures.Depending on whether cloud particles are liquid, ice, or both, clouds are classified as liquid, ice, or mixed-phase. Natural aerosols include sea salt, volcanic sulfates, and desert dust, while anthropogenic aerosols arise from the pollution in urban environments and industrial activity. 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Ice_Nucleation_Mechanisms.png?20141019054030" width="600" style="display:block; margin:auto;"/> <p style="text-align:center;"><b>Figure 2: INPs</b> Various ice nucleation mechanisms in the atmosphere or modes of ice formation in clouds.</p>
+Because aerosols influence droplet formation, they also affect cloud structure and behavior. For instance, more CCNs create numerous smaller droplets, increasing cloud reflectivity. This is called the **Twomey effect**. By altering droplet number, phase, and cloud thickness, aerosols modify how clouds reflect sunlight and trap heat, playing a key role in how clouds either amplify or mitigate global warming.
 
-Because aerosols influence droplet formation, they also affect cloud structure and behavior. For instance, more CCNs create numerous smaller droplets, increasing cloud reflectivity: **the Twomey effect**. By altering droplet number, phase, and thickness, aerosols modify how clouds reflect sunlight and trap heat, playing a key role in how clouds either amplify or mitigate global warming.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Representation_of_the_direct_and_first_indirect_effect_of_aerosols_on_the_albedo_of_clouds.png/1200px-Representation_of_the_direct_and_first_indirect_effect_of_aerosols_on_the_albedo_of_clouds.png?20191119202505" width="600" style="display:block; margin:auto;"/> <p style="text-align:center;"><b>Figure 2: Aerosols radiative effects.</b>  Aerosols particles can change the way the radiation is reflected and reemited themselves, this is called a direct effect. They can also modify the size and amount of particles that a cloud is made of, consecuently changing how much cradiation is reflected by the cloud. This is an indirect effect from the aerosols.</p>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Representation_of_the_direct_and_first_indirect_effect_of_aerosols_on_the_albedo_of_clouds.png/1200px-Representation_of_the_direct_and_first_indirect_effect_of_aerosols_on_the_albedo_of_clouds.png?20191119202505" width="600" style="display:block; margin:auto;"/> <p style="text-align:center;"><b>Figure 3: Aerosols radiative effects.</b>  Aerosols particles can change the way the radiation is reflected and reemited themselves, this is called a direct effect. They can also modify the size and amount of particles that a cloud is made of, consecuently changing how much cradiation is reflected by the cloud. This is an indirect effect from the aerosols.</p>
-
-<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/05/clouds_in_the_climate_system/26088977-1-eng-GB/Clouds_in_the_climate_system_article.png" width="600" style="display:block; margin:auto;"/> <p style="text-align:center;"><b>Figure 4: Cloud radiative effects.</b>  The amount of clouds, their height in the atmosphere and their thickness are fundamental variables that determine how they interact with the incomming and outgoing radiation. </p>
+<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/05/clouds_in_the_climate_system/26088977-1-eng-GB/Clouds_in_the_climate_system_article.png" width="600" style="display:block; margin:auto;"/> <p style="text-align:center;"><b>Figure 3: Cloud radiative effects.</b>  The amount of clouds, their height in the atmosphere and their thickness are fundamental variables that determine how they interact with the incomming and outgoing radiation. </p>
 
 ## Challenge
 We cannot continuously sample cloud droplets and aerosols directly within clouds, so researchers use several remote methods to study them. You might wonder: how did we understand clouds before satellites, and how can satellites detect such tiny particles?
 
-Our first tool was and remains theory. Physics helps predict how clouds behave and interact with aerosols. Over time, scientists developed equations to describe these processes, later enhanced by computational models that simulate thousands of atmospheric equations. Though simplified, these models reveal valuable insights into cloud–aerosol interactions. To verify models, we rely on observations. In the lab, scientists study ice crystal growth or simulate clouds in controlled conditions. Aircraft equipped with specialized instruments can collect samples and measure properties in real time, but these missions are costly and limited. Satellites, on the other hand, provide continuous, global coverage that complements models, lab work, and field campaigns. Together, these tools offer a more complete picture of this complex system, helping us improve weather and climate predictions in a warming world.
-## Objective
+Our first tool was and remains theory. Physics helps predict how clouds behave and interact with aerosols. Over time, scientists developed understanding of these processes, later enhanced by computational models that simulate thousands of atmospheric equations. Though simplified, these models reveal valuable insights into cloud–aerosol interactions. To verify models, we rely on observations. In the lab, scientists study ice crystal growth or simulate clouds in controlled conditions. Aircraft equipped with specialized instruments can collect samples and measure properties in real time, but these missions are costly and limited. Satellites, on the other hand, provide continuous, global coverage that complements models, lab work, and field campaigns. Together, these tools offer a more complete picture of this complex system, helping us improve weather and climate predictions in a warming world.
+
+### Objective
 
 The objective of this study is to explore whether and how aerosols influence cloud characteristics: specifically the distribution of liquid water and ice content, at various altitudes using EarthCare’s vertical profiling capabilities. To this end, **EarthCare, a new Earth Explorer from ESA**, was used to identifying patterns in cloud-aerosol interactions across different regions and conditions (e.g. land vs. ocean, tropical vs. polar environments), and determining whether increased CCN or INP concentrations correlate with observable changes in cloud composition.
 
 
-<div style="text-align: center;"> <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/01/earthcare_over_desert_dust/25391626-1-eng-GB/EarthCARE_over_desert_dust_pillars.png" width="800"/> <p><b>Figure 5.</b> EarthCare Satellite (source: ESA).</p> </div>
+<div style="text-align: center;"> <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/01/earthcare_over_desert_dust/25391626-1-eng-GB/EarthCARE_over_desert_dust_pillars.png" width="800"/> <p><b>Figure 4.</b> EarthCare Satellite (source: ESA).</p> </div>
 
 #### Why EarthCare? 
 
@@ -64,7 +63,7 @@ EarthCARE is a first-of-its-kind mission that offers an unlikely opportunity to 
 * **MSI (Multi-Spectral Imager)** delivers multi-wavelength images in 7 different bands that reveal cloud structure and aerosol distribution over large areas, complementing MODIS with higher spatial resolution. 
 * **BBR (Broadband Radiometer)** measures solar and thermal radiation reflected and emitted by Earth, enabling direct estimates of top-of-atmosphere radiative effects and energy balance. 
 
-<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/team1-earthcare-sensors-image.png?raw=true" width="800"/> <p><b>Figure 6.</b> EarthCare Satellite (source: ESA).</p> </div>
+<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/team1-earthcare-sensors-image.png?raw=true" width="800"/> <p><b>Figure 5.</b> EarthCare Satellite (source: ESA).</p> </div>
 
 Together, these instruments provide comprehensive and blended data that will help us explore interactions and uncover new insights into how clouds and aerosols influence climate.
 
@@ -75,7 +74,7 @@ The first region lies just north of the Equator and stretches West to East acros
 <div style="text-align: center;">
     <img src="
 https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/Globe1_pacific.png?raw=true  " width="500"/>
-    <p><b>Figure 7: Locations to study. </b> The three locations of our study for the ESA challenge.</p>
+    <p><b>Figure 6: Locations to study. </b> The three locations of our study for the ESA challenge.</p>
 </div>
 
 1. **West Pacific**
@@ -88,11 +87,8 @@ This region typically experiences downdrafts, where air sinks rather than rises,
 <div style="text-align: center;">
     <img src="
 https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/Screenshot%20from%202025-11-06%2012-12-20.png?raw=true" width="500"/>
-    <p><b>Figure 8:  The Walker circulation. </b> Normal Pacific conditions (Walker circulation) feature warm western waters with rising air and convection, and cool eastern waters with sinking air, producing east-to-west trade winds. Credit: [David Babb @ Penn State is licensed under CC-BY-NC-4.0](https://www.e-education.psu.edu/meteo3/node/2273).</p>
+    <p><b>Figure 7:  The Walker circulation. </b> Normal Pacific conditions (Walker circulation) feature warm western waters with rising air and convection, and cool eastern waters with sinking air, producing east-to-west trade winds. Credit: [David Babb @ Penn State is licensed under CC-BY-NC-4.0](https://www.e-education.psu.edu/meteo3/node/2273).</p>
 </div>
-
-
-
 
 3.   **Southern Ocean** 
 The atmospheric dynamics are quite particular in this region. Ice clouds form at much lower altitudes given the extremely low temperature of the atmosphere. However, there can also be some supercooled clouds at low altitudes. Aerosols might potentially be carried from far away, and influence cloud formation here. We mostly expect sea salt aerosols, but there could also be stratospheric aerosols, especially from volcanic eruptions.
@@ -114,7 +110,7 @@ https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Chall
 </div>
 
 ## Data and Methods
-Two instruments (out of of the four) on-board of EarthCare, we used, which can provide a vertical profiliing of the atmosphere:
+In this analysis, we used data derived from two of EarthCARE’s main instruments, specifically those that provide vertical profile view across the atmosphere:
 - **Cloud Profiling Radar (CPR)**: 94 GHz nadir-viewing radar with ~750m horizontal resolution and 100m vertical resolution, providing cloud structure and water content.
 - **Atmospheric Lidar (ATLID)**: 354.8 nm nadir-viewing lidar with <30m horizontal resolution and 100m vertical resolution, detecting aerosols and thin clouds.
 
@@ -142,6 +138,7 @@ The elbow metric was used to quantify the ideal amount of clusters for the data,
 The code was run at MAAP portal.
 
 **Limitations**: Not all EarthCARE data products are yet available, and merging different instruments (particularly MSI with CPR and ATLID) remains challenging in early mission phases.
+Due to timing limitations, we also worked with only three months of the available data. It will probably be possible to get much clear signals with more data. 
 
 ## Results
 Although this was only an exploratory analysis, we can see some insights. 
@@ -156,7 +153,7 @@ The first thing to notice is that, ovearall, the West Pacific classification is 
         alt="Pacific region clusters"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 9: Clustering results in ITCZ</b> K-means clustering results for West Pacific (upper row) and East Pacific (bottom row).
+        <b>Figure 8: Clustering results in ITCZ</b> K-means clustering results for West Pacific (upper row) and East Pacific (bottom row).
     </p>
 </div>
 
@@ -174,7 +171,7 @@ The second and third plot show that there are not many liquid clouds.
         alt="Spatial cluster distribution"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 10: Clustering results in Antartica. </b> Compared to the ITCZ results, we didn't find many aerosols.
+        <b>Figure 9: Clustering results in Antartica. </b> Compared to the ITCZ results, we didn't find many aerosols.
     </p>
 </div>
 
@@ -204,13 +201,13 @@ Access the complete analysis code and notebooks on GitHub.
 <iframe width="100%" height="600" src="https://github.com/giacom0rovers1/earthcare_aerosol_cloud_interactions" frameborder="0"></iframe>
 
 #### References
-- [Finney, D. L., et al. (2025). Microphysical fingerprints in anvil cloud albedo. *Journal of the Atmospheric Sciences*](https://egusphere.copernicus.org/preprints/2025/egusphere-2025-1227/)
+- [Finney, D. L., et al. (2025). Microphysical fingerprints in anvil cloud albedo. Journal of the Atmospheric Sciences](https://egusphere.copernicus.org/preprints/2025/egusphere-2025-1227/)
 
-- [Lorian, A., et al. (2023). Aerosol effects on deep convection: A review. *Atmospheric Research*.](https://doi.org/10.5194/acp-19-2601-2019)
+- [Lorian, A., et al. (2023). Aerosol effects on deep convection: A review. Atmospheric Research.](https://doi.org/10.5194/acp-19-2601-2019)
 
-- [Grabowski, W. W., and Morrison, H. (2016). Untangling microphysical impacts on deep convection applying a novel modeling methodology. *Journal of the Atmospheric Sciences*, 73(6), 2503-2524.](https://doi.org/10.1175/JAS-D-14-0307.1)
+- [Grabowski, W. W., and Morrison, H. (2016). Untangling microphysical impacts on deep convection applying a novel modeling methodology. Journal of the Atmospheric Sciences, 73(6), 2503-2524.](https://doi.org/10.1175/JAS-D-14-0307.1)
 
-- [Heikenfeld, M., et al. (2019). Aerosol effects on deep convection: The propagation of aerosol perturbations through convective cloud microphysics. *Atmospheric Chemistry and Physics*, 19(4), 2601-2627.](https://doi.org/10.5194/acp-19-2601-2019)
+- [Heikenfeld, M., et al. (2019). Aerosol effects on deep convection: The propagation of aerosol perturbations through convective cloud microphysics. Atmospheric Chemistry and Physics, 19(4), 2601-2627.](https://doi.org/10.5194/acp-19-2601-2019)
 
 - [Igel, A. L., and van den Heever, S. C. (2021). The relative influence of environmental characteristics on tropical deep convective morphology as observed by CloudSat. *Journal of Geophysical Research: Atmospheres*, 126(6).]( https://doi.org/10.1002/2014JD022690)
 
