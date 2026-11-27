@@ -42,7 +42,7 @@ The following animation shows above ground biomass 2020. While deforestation ref
 
 ## <!--{ nav="false" }-->
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;">
-<video src="https://media.esa.int/legacy/delivery/public/videos/2021/10/089/2110_089_AR_EN.mp4" controls autoplay muted loop playsinline style="max-width: 100%; width: 1200px; height: auto;"></video>
+<video src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/above_ground_biomass_2020.mp4" controls autoplay muted loop playsinline style="max-width: 100%; width: 1200px; height: auto;"></video>
 <p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;">Above-ground biomass 2020. Credit: ESA (Data source: CCI Biomass project)</p>
 </div>
 
